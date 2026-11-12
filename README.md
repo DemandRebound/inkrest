@@ -8,6 +8,18 @@
 
 > 刻意**不做点击动效**：新标签页是每天要开几十次的高频入口，点一下泛一圈涟漪属于干扰而不是反馈。页面静止时没有 `requestAnimationFrame`、没有 canvas、没有每帧分配，只有每分钟一次的时钟唤醒。
 
+## 界面预览
+
+| 玄墨 · 深色（引擎展开） | 宣纸 · 浅色 |
+|:---:|:---:|
+| [![玄墨主题首页，三枚搜索引擎按钮展开](screenshots/01-dark.png)](screenshots/01-dark.png) | [![宣纸主题首页](screenshots/02-light.png)](screenshots/02-light.png) |
+
+| 设置面板 | 常用站点 |
+|:---:|:---:|
+| [![设置面板展开，八款预设与三个滑块](screenshots/03-panel.png)](screenshots/03-panel.png) | [![顶部浮出的常用站点图标盘](screenshots/04-sites.png)](screenshots/04-sites.png) |
+
+> 截图为 1280×800 的真实界面，点击可查看原图。「常用站点」一栏使用**演示数据**，不读取也不展示任何人的真实浏览记录。
+
 ## 安装
 
 ### 从源码加载（开发者模式）
@@ -72,7 +84,7 @@
 
 ## 开发
 
-零依赖、无构建步骤。调试锚点、设计取舍、已修的坑和本地验证方式见 [CONTRIBUTING.md](CONTRIBUTING.md)；安全问题见 [SECURITY.md](SECURITY.md)；Chrome Web Store 上架材料见 [docs/STORE.md](docs/STORE.md)。问题与建议请走 [Issues](https://github.com/DemandRebound/inkrest/issues)。
+零依赖、无构建步骤。调试锚点、设计取舍、已修的坑和本地验证方式见 [CONTRIBUTING.md](CONTRIBUTING.md)；安全问题见 [SECURITY.md](SECURITY.md)；Chrome Web Store 上架材料（含截图用途说明）见 [docs/STORE.md](docs/STORE.md)。问题与建议请走 [Issues](https://github.com/DemandRebound/inkrest/issues)。
 
 ## 文件结构
 
@@ -84,6 +96,7 @@ inkrest/
 ├── icons/              # 扩展图标 16/32/48/128
 ├── tools/make_icons.py # 图标生成脚本（纯 Python 标准库）
 ├── docs/STORE.md       # 商店上架材料
+├── screenshots/        # README / 商店用界面截图（1280×800）
 ├── PRIVACY.md          # 隐私说明
 ├── CONTRIBUTING.md     # 开发笔记与调试锚点
 ├── SECURITY.md         # 漏洞报告

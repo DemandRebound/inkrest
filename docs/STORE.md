@@ -91,12 +91,12 @@ English 版把中文逐段对应翻译即可，别加中文版没有的功能承
 | 素材 | 规格 | 状态 |
 |------|------|------|
 | 扩展图标 | 128×128 PNG | ✅ `icons/icon128.png` |
-| 截图 | 1280×800 或 640×400，1–5 张 | ⬜ 建议：深墨首页 / 宣纸首页 / 设置面板展开 / 常用站点浮出，共 4 张 |
+| 截图 | 1280×800 PNG，1–5 张 | ✅ `screenshots/` 4 张：`01-dark`（引擎展开）/ `02-light` / `03-panel` / `04-sites`，共约 3.3 MB |
 | 宣传小图 | 440×280 | ⬜ |
 | 分类 | Productivity | 建议 |
 | 语言 | zh-CN（可加 en） | 建议 |
 
-截图务必用**已上架版本**的真实界面，不含调试锚点痕迹、不含本机的 Chrome 原生页脚（右键页脚可隐藏）。
+截图取自真实运行的页面：1280×800、不含调试锚点痕迹、不含 Chrome 原生页脚；「常用站点」用演示数据，避免暴露真实浏览记录。**界面若有改动，发布前必须重截**（用 CDP 锁定视口、每张独立 profile、开启 reduced-motion 关掉入场动画，再用调试锚点切主题 / 面板 / 站点）。商店上传时直接用 `screenshots/` 里的原图，**不要**把该目录打进扩展包。
 
 ## 6. 打包
 
@@ -108,7 +108,7 @@ zip -r inkrest-1.0.0.zip \
   LICENSE README.md PRIVACY.md
 ```
 
-不要打进包里：`.git/`、`docs/`、`tools/`、`CONTRIBUTING.md`、`SECURITY.md`、`.gitignore`、任何 `*.zip` 与本地截图。上传前解压一次，确认根目录直接就是 `manifest.json`。
+不要打进包里：`.git/`、`docs/`、`tools/`、`screenshots/`、`CONTRIBUTING.md`、`SECURITY.md`、`.gitignore`、任何 `*.zip` 与本地截图。上传前解压一次，确认根目录直接就是 `manifest.json`。
 
 ## 7. 待维护者拍板的优化（本版未做）
 
