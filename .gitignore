@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Chrome 在扩展目录里生成的运行时缓存
+Cached Theme.pak
+
+# 本地调试页 / 临时产物
+_dbg*.html
+*.log
+
+# Python（tools/make_icons.py）
+__pycache__/
+*.pyc
+
+# 商店上架打包产物
+*.zip
