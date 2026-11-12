@@ -10,15 +10,15 @@
 
 ## 界面预览
 
-| 玄墨 · 深色（引擎展开） | 宣纸 · 浅色 |
+| 玄墨 · 深色：切换搜索引擎 | 宣纸 · 浅色 |
 |:---:|:---:|
-| [![玄墨主题首页，三枚搜索引擎按钮展开](screenshots/01-dark.png)](screenshots/01-dark.png) | [![宣纸主题首页](screenshots/02-light.png)](screenshots/02-light.png) |
+| [![深色搜索区特写：三枚引擎按钮展开，当前选中 Bing](screenshots/01-dark.png)](screenshots/01-dark.png) | [![宣纸浅色主题首页](screenshots/02-light.png)](screenshots/02-light.png) |
 
-| 设置面板 | 常用站点 |
+| 宣纸 · 浅色：设置面板 | 玄墨 · 深色：常用站点 |
 |:---:|:---:|
-| [![设置面板展开，八款预设与三个滑块](screenshots/03-panel.png)](screenshots/03-panel.png) | [![顶部浮出的常用站点图标盘](screenshots/04-sites.png)](screenshots/04-sites.png) |
+| [![浅色主题下设置面板展开，八款预设与三个滑块](screenshots/03-panel.png)](screenshots/03-panel.png) | [![深色主题下顶部浮出的常用站点图标盘](screenshots/04-sites.png)](screenshots/04-sites.png) |
 
-> 截图为 1280×800 的真实界面，点击可查看原图。「常用站点」一栏使用**演示数据**，不读取也不展示任何人的真实浏览记录。
+> 四张均为 1280×800，**深色 / 浅色各两张**，点击可查看原图。第一张是**搜索区局部放大**（高像素密度原生渲染后裁切，不是插值拉伸）：三枚引擎按钮展开、当前选中 Bing，用来说明切换功能；其余三张为整页。「常用站点」一栏使用**演示数据**，不读取也不展示任何人的真实浏览记录。
 
 ## 安装
 
